@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Threading.Tasks;
 
 namespace Caliburn.Micro.DevExpress
 {
+
   /// <summary>
   /// Conductor to support DevExpress DocumentGroup binding. It uses the new ActiveItemIndex property to select the active item
   /// and CloseAction to provide a way to close document panels.
@@ -10,7 +12,6 @@ namespace Caliburn.Micro.DevExpress
   public class DevExpressConductorOneActive<T> : Conductor<T>.Collection.OneActive where T : class
   {
     public DevExpressConductorOneActive()
-      : base()
     {
       ActivationProcessed += DXActivationProcessed;
     }
@@ -18,22 +19,16 @@ namespace Caliburn.Micro.DevExpress
     /// <summary>
     /// Action to support closing bound viewmodels.
     /// </summary>
-    public Action<T> CloseAction
-    {
-      get
-      {
-        return OnClose;
-      }
-    }
+    public Action<T> CloseAction => async p => await OnClose(p);
 
     /// <summary>
     /// Close the viewmodel, and then activate the viewmodel left to the closed one.
     /// </summary>
     /// <param name="param">The viewmodel to be closed.</param>
-    private void OnClose(T param)
+    private async Task OnClose(T param)
     {
       int active = ActiveItemIndex;
-      DeactivateItem(param, true);
+      await DeactivateItemAsync(param, true);
       if (active > 0)
         if (active == Items.Count)
           ActiveItemIndex = Items.Count - 1;
@@ -51,7 +46,7 @@ namespace Caliburn.Micro.DevExpress
       {
         if (Items.Count > value)
         {
-          ActivateItem(Items[value]);
+          ActivateItemAsync(Items[value]);
           NotifyOfPropertyChange(() => ActiveItemIndex);
         }
       }
