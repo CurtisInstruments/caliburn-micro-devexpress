@@ -16,7 +16,7 @@ In your app's bootstrapper, in Configure override or in a static constructor add
 Caliburn.Micro.DevExpress.DXConventions.Install();
 ```
 
-Of course, you need a DevExpress WPF subscription to use this package. It's compiled with v14.2.3.
+Of course, you need a DevExpress WPF subscription to use this package. It's compiled with v19.2.
 
 ## Nuget package
 
