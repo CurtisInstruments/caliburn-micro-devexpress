@@ -1,8 +1,9 @@
-﻿using System.Windows;
-using DevExpress.Xpf.Core;
-
-namespace Caliburn.Micro.DevExpress
+﻿namespace CurtisInstruments.CaliburnMicroDevExpress.Extensions
 {
+  using System.Windows;
+  using Caliburn.Micro;
+  using DevExpress.Xpf.Core;
+
   public class DXWindowManager : WindowManager
   {
     /// <summary>

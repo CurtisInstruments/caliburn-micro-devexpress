@@ -20,7 +20,7 @@ Of course, you need a DevExpress WPF subscription to use this package. It's comp
 
 ## Nuget package
 
-Easiest way to use it is the `Caliburn.Micro.DevExpress2` package, but it works only if you use exactly the same DevExpress version as the package was compiled with. If you use other version, just download and compile the source code!
+Easiest way to use it is the `CurtisInstruments.CaliburnMicroDevExpress.Extensions` package, but it works only if you use exactly the same DevExpress version as the package was compiled with. If you use other version, just download and compile the source code!
 
 ## Currently supported DevExpress controls
 

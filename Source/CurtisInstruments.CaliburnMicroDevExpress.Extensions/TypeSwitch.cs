@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace Caliburn.Micro.DevExpress
+﻿namespace CurtisInstruments.CaliburnMicroDevExpress.Extensions
 {
+  using System;
+
   //http://blogs.msdn.com/b/jaredpar/archive/2008/05/16/switching-on-types.aspx
   internal static class TypeSwitch
   {

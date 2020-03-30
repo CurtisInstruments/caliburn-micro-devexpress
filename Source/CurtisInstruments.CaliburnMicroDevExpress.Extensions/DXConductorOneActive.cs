@@ -1,8 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace Caliburn.Micro.DevExpress
+﻿namespace CurtisInstruments.CaliburnMicroDevExpress.Extensions
 {
+  using System;
+  using System.Threading.Tasks;
+  using Caliburn.Micro;
 
   /// <summary>
   /// Conductor to support DevExpress DocumentGroup binding. It uses the new ActiveItemIndex property to select the active item

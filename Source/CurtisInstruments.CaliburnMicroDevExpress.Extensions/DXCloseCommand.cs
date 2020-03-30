@@ -1,8 +1,8 @@
-﻿using System;
-using System.Windows.Input;
-
-namespace Caliburn.Micro.DevExpress
+﻿namespace CurtisInstruments.CaliburnMicroDevExpress.Extensions
 {
+  using System;
+  using System.Windows.Input;
+
   /// <summary>
   /// Command type to support closing documentpanels.
   /// </summary>

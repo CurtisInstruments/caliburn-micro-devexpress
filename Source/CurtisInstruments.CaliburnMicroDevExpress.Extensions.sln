@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.DevExpress", "Caliburn.Micro.DevExpress\Caliburn.Micro.DevExpress.csproj", "{6A7B197A-F013-42C5-8C0A-F5491E84F605}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurtisInstruments.CaliburnMicroDevExpress.Extensions", "CurtisInstruments.CaliburnMicroDevExpress.Extensions\CurtisInstruments.CaliburnMicroDevExpress.Extensions.csproj", "{6A7B197A-F013-42C5-8C0A-F5491E84F605}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFSample1", "WPFSample1\WPFSample1.csproj", "{43B606FB-0025-4AB3-8A97-1AAB5405366A}"
 EndProject
@@ -32,5 +34,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2270CF02-F357-4C3F-A1F8-A20B173D2148}
 	EndGlobalSection
 EndGlobal

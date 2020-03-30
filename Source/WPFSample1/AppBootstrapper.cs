@@ -8,6 +8,7 @@
   using System.Linq;
   using Caliburn.Micro;
   using System.Windows;
+  using CurtisInstruments.CaliburnMicroDevExpress.Extensions;
 
   public class AppBootstrapper : BootstrapperBase, IDisposable
   {
@@ -16,7 +17,7 @@
     static AppBootstrapper()
     {
       LogManager.GetLog = type => new ConsoleLogger(type);
-      Caliburn.Micro.DevExpress.DXConventions.Install();
+      DXConventions.Install();
     }
 
     public AppBootstrapper() : base()

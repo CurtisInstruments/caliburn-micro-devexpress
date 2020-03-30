@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Caliburn.Micro;
-using Caliburn.Micro.DevExpress;
 
 namespace WPFSample1
 {
+  using CurtisInstruments.CaliburnMicroDevExpress.Extensions;
+
   public class InnerDocumentViewModel : DXDockingScreen
   {
     public InnerDocumentViewModel()

@@ -1,21 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Media;
-using DevExpress.Xpf.Docking;
-using DevExpress.Xpf.Editors;
-using DevExpress.Xpf.Grid;
-using DevExpress.Xpf.LayoutControl;
-using DevExpress.Xpf.PivotGrid;
-using DXGroupBox = DevExpress.Xpf.LayoutControl.GroupBox;
-using LayoutGroup = DevExpress.Xpf.Docking.LayoutGroup;
-using DevExpress.Xpf.Charts;
+﻿using DXGroupBox = DevExpress.Xpf.LayoutControl.GroupBox;
 
-namespace Caliburn.Micro.DevExpress
+namespace CurtisInstruments.CaliburnMicroDevExpress.Extensions
 {
+  using System;
+  using System.Collections.Generic;
+  using System.Linq;
+  using System.Windows;
+  using System.Windows.Controls;
+  using System.Windows.Data;
+  using System.Windows.Media;
+  using Caliburn.Micro;
+  using DevExpress.Xpf.Charts;
+  using DevExpress.Xpf.Docking;
+  using DevExpress.Xpf.Editors;
+  using DevExpress.Xpf.Grid;
+  using DevExpress.Xpf.LayoutControl;
+  using DevExpress.Xpf.PivotGrid;
+  using LayoutGroup = DevExpress.Xpf.Docking.LayoutGroup;
+
   public static class DXConventions
   {
     private static readonly ILog Log = LogManager.GetLog(typeof(DXConventions));

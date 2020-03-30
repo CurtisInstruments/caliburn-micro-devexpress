@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Input;
-using DevExpress.Xpf.Docking;
-
-namespace Caliburn.Micro.DevExpress
+﻿namespace CurtisInstruments.CaliburnMicroDevExpress.Extensions
 {
+  using System;
+  using System.Windows.Input;
+  using Caliburn.Micro;
+  using DevExpress.Xpf.Docking;
+
   /// <summary>
   /// Screen descendant to support binding DocumentGroup.ItemsSource to the conductor.
   /// </summary>
