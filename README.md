@@ -39,4 +39,4 @@ So, the currently supported DevExpress controls that have conventions:
 
 ## Attaching messages to BarItem objects
 
-If you want to use Caliburn.Micro's `Message.Attach` mechanism together with `DXBars` or `DXRibbo`n, you can use my related project `Caliburn.Micro.FrameworkContentElement`. I personally use these two packages together too.
+If you want to use Caliburn.Micro's `Message.Attach` mechanism together with `DXBars` or `DXRibbon`, you can use my related project `Caliburn.Micro.FrameworkContentElement`. I personally use these two packages together too.
