@@ -18,7 +18,7 @@
     </Description>
     <ProjectURL>https://github.com/CurtisInstruments/caliburn-micro-devexpress</ProjectURL>
     <RepositoryUrl>https://github.com/CurtisInstruments/caliburn-micro-devexpress</RepositoryUrl>
-    <LicenseUrl>https://opensource.org/licenses/MS-PL</LicenseUrl>
+    <License>MS-PL</License>
     <Authors>pjenei;willsont</Authors>
     <Copyright>Copyright 2012-2015 by Jenei Péter; Copyright 2020 Curtis Instruments</Copyright>
     <releaseNotes>Support for Devexpress v19.2 and Caliburn.Micro v4</releaseNotes>
