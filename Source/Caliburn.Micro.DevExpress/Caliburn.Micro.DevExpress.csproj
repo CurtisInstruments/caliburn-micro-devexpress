@@ -6,27 +6,32 @@
     <TargetFrameworks>net452;netcoreapp3.0</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
+    <Version>2.0.0-alpha.1</Version>
+    <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <PropertyGroup>
-    <PackageId>$(AssemblyName)</PackageId>
     <Description>
       A library containing Caliburn.Micro conventions for DevExpress' visual controls.
       Target platform: WPF.
       Inspired by `Caliburn.Micro.Telerik` package. Thanks, Valeriu Caraulean!
     </Description>
-    <ProjectURL>http://calmicrodevexpress.codeplex.com/</ProjectURL>
+    <ProjectURL>https://github.com/CurtisInstruments/caliburn-micro-devexpress</ProjectURL>
+    <RepositoryUrl>https://github.com/CurtisInstruments/caliburn-micro-devexpress</RepositoryUrl>
     <LicenseUrl>https://opensource.org/licenses/MS-PL</LicenseUrl>
-    <Version>2.0.0-alpha.1</Version>
-    <Authors>Jenei Péter, Thomas Willson</Authors>
-    <Copyright>Copyright 2012-2015 by Jenei Péter</Copyright>
-    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <Authors>pjenei;willsont</Authors>
+    <Copyright>Copyright 2012-2015 by Jenei Péter; Copyright 2020 Curtis Instruments</Copyright>
     <releaseNotes>Support for Devexpress v19.2 and Caliburn.Micro v4</releaseNotes>
     <Tags>Caliburn.Micro DevExpress WPF</Tags>
+
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="Caliburn.Micro" Version="4.0.117-alpha" />
   </ItemGroup>
 
