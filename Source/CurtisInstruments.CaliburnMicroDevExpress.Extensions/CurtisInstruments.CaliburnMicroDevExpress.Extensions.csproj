@@ -6,7 +6,7 @@
     <TargetFrameworks>net452;netcoreapp3.0</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
-    <Version>2.0.0-alpha.1</Version>
+    <Version>2.0.0-alpha.2</Version>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
