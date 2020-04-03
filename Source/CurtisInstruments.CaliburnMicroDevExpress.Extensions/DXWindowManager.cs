@@ -2,9 +2,8 @@
 {
   using System.Windows;
   using Caliburn.Micro;
-  using DevExpress.Xpf.Core;
 
-  public class DXWindowManager : WindowManager
+  public class DXWindowManager<TWindow> : WindowManager where TWindow : Window, new()
   {
     /// <summary>
     /// Makes sure the view is a DX window or is wrapped by one.
@@ -20,7 +19,7 @@
 
       if (window == null)
       {
-        window = new DXWindow
+        window = new TWindow
         {
           Content = view,
           SizeToContent = SizeToContent.WidthAndHeight
