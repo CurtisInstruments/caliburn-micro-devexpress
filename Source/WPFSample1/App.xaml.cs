@@ -10,7 +10,7 @@ namespace WPFSample1
     public App()
     {
       InitializeComponent();
-      DevExpress.Xpf.Core.ThemeManager.ApplicationThemeName = "MetropolisDark";// "Office2010Black";
+      DevExpress.Xpf.Core.ApplicationThemeHelper.ApplicationThemeName = "MetropolisDark";// "Office2010Black";
     }
   }
 }

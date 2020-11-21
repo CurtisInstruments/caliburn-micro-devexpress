@@ -13,5 +13,10 @@
     {
       ActivateItem(new InnerDocumentViewModel() { DisplayName = "Inner document " + count++, CloseAction = this.CloseAction });
     }
+
+    private void ActivateItem(InnerDocumentViewModel innerDocumentViewModel)
+    {
+        ActivateItemAsync(innerDocumentViewModel);
+    }
   }
 }
