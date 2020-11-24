@@ -6,7 +6,7 @@
     <TargetFrameworks>net452;net5.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <UseWindowsForms>true</UseWindowsForms>
-    <Version>20.2.3-alpha.0</Version>
+    <Version>20.2.3-alpha.1</Version>
     <AssemblyVersion>20.0.0.0</AssemblyVersion>
   </PropertyGroup>
 
